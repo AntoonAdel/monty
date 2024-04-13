@@ -92,14 +92,6 @@ void find_the_func(char *opcode, char *value, int ln, int format)
 		{"nop", _nop_},
 		{"swap", _swap_},
 		{"add", _add_},
-		{"sub", _sub_},
-		{"div", _div_},
-		{"mul", _mul_},
-		{"mod", _mod_},
-		{"pchar", prnt_char},
-		{"pstr", prnt_str},
-		{"rotl", _rotl_},
-		{"rotr", _rotr_},
 		{NULL, NULL}
 	};
 
