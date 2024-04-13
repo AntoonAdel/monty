@@ -1,5 +1,5 @@
-#ifndef MONTY
-#define MONTY
+#ifndef MONTY_H
+#define MONTY_H
 
 #define _GNU_SOURCE
 #include <string.h>
@@ -72,4 +72,4 @@ void _errors_(int error_code, ...);
 void more_errors(int error_code, ...);
 void string_errors(int error_code, ...);
 
-#endif
+#endif /* MONTY_H */
