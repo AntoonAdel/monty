@@ -1,6 +1,5 @@
 #include "monty.h"
 
-extern stack_t *head = NULL;
 
 /**
  * main - entry point
@@ -33,7 +32,7 @@ stack_t *create_new_node(int num)
 
 	node = malloc(sizeof(stack_t));
 	if (node == NULL)
-		err(4);
+		_errors_(4);
 	node->next = NULL;
 	node->prev = NULL;
 	node->n = num;
